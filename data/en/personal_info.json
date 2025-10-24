@@ -1,0 +1,95 @@
+{
+  "name": "Nguyen Thi Ngoc Thuy",
+  "tagline": "Graphic Designer | UI/UX | Marketing",
+  "profile_picture_url": "images/avatar/avatar.png",
+  "bio_short": "A passionate graphic and illustration designer, always seeking opportunities to create unique and creative visual experiences.",
+  "bio_long": "With over 4 years of experience in graphic design, I have participated in diverse projects, especially in the spa, cosmetics, and beauty industry. From brand identity development, product packaging design to website interfaces and advertising materials, I always focus on expressing elegance, sophistication, and visual emotions suitable for these sectors. I continuously learn and am ready to face challenges to develop my skills and bring innovative, breakthrough creative values to clients. My design style is a combination of modern aesthetics and fresh, gentle vibes.",
+  "contact_email": "ngocthuydesign1012@gmail.com",
+  "phone_number": "0908875706",
+  "social_links": [
+    {
+      "platform": "Behance",
+      "url": "https://www.behance.net/ngcthynguynth",
+      "icon_class": "./images/Icon_socical/behance.png"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/thuynguyet1012",
+      "icon_class": "./images/Icon_socical/facebook.png"
+    },
+    {
+      "platform": "Zalo",
+      "url": "https://zalo.me/0908875706",
+      "icon_class": "./images/Icon_socical/zalo.png"
+    },
+    {
+      "platform": "Gmail",
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=ngocthuydesign1012@gmail.com",
+      "icon_class": "./images/Icon_socical/icon_gmail.png"
+    }
+  ],
+  "skills_technical": [
+    "UI/UX Design",
+    "Vector Illustration",
+    "Branding & Identity",
+    "Packaging Design",
+    "Typography",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Figma (basic)",
+    "Color Coordination",
+    "Layout Processing"
+  ],
+  "skills_software": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Figma",
+    "Adobe InDesign"
+  ],
+  "work_experience": [
+    {
+      "job_title": "Freelance Graphic Designer",
+      "company_name": "Freelance / Individual & Corporate Clients",
+      "company_logo_url": "images/icon_experience/icon_cay_co.png",
+      "duration": "07/2021 - Present",
+      "responsibilities": [
+        "Designed logos, posters, and GDN for companies such as Leadup, Phát Đạt.",
+        "Executed UI design for web projects in football and finance sectors.",
+        "Built brand identity systems for clients in dental care, spa, and cosmetics fields."
+      ]
+    },
+    {
+      "job_title": "Graphic Designer",
+      "company_name": "BING AGENCY Media & Solutions Co., Ltd.",
+      "company_logo_url": "images/icon_experience/icon_cay_co.png",
+      "duration": "",
+      "responsibilities": [
+        "Assigned and reviewed designs from the design team.",
+        "Directly worked with clients and content teams to develop visual concepts.",
+        "Designed images for spas, beauty products, and e-commerce platforms (Shopee, Lazada, TikTok Live, etc.)."
+      ]
+    },
+    {
+      "job_title": "Graphic Designer",
+      "company_name": "E-EXPO Trade Promotion Consortium Company",
+      "company_logo_url": "images/icon_experience/icon_cay_co.png",
+      "duration": "",
+      "responsibilities": [
+        "Supported and edited designs for team members.",
+        "Designed images for fanpages and websites.",
+        "Created SEO images and visuals for clinics and dental care."
+      ]
+    },
+    {
+      "job_title": "Graphic Designer",
+      "company_name": "Your Media Advertising & Communication Co., Ltd.",
+      "company_logo_url": "images/icon_experience/icon_cay_co.png",
+      "duration": "",
+      "responsibilities": [
+        "Designed fanpage images for various beauty and health brands.",
+        "Cooperated with content teams to produce media visuals.",
+        "Designed according to campaigns and brand directions."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+      // {
+      //   "type": "video",
+      //   "url": "https://www.youtube.com/embed/your_video_id_1",
+      //   "alt_text": "Video giới thiệu ứng dụng Vui Nhộn",
+      //   "caption": "Video demo các tính năng chính và tương tác."
+      // }
+
+ {
+    "id": "Thit-k-post-FORD",
+    "project_name": "Thiết kế post - FORD",
+     "project_thumbnail_url": "images/project/Ford2.png",
+    "project_category": "Poster",
+    "project_date": "29 tháng 12 năm 2024",
+    "client_name": "",
+    "project_summary": "Thiết kế poster sự kiện vàng Ford Việt Nam tại Ford Long Biên với tông màu mạnh mẽ, nổi bật hình ảnh Ford Raptor và cầu dây văng về đêm. Thông điệp nhấn mạnh ưu đãi hấp dẫn: giảm giá tiền mặt, tặng phụ kiện và hỗ trợ trả góp đến 80%.",
+    "project_description_detailed": "",
+    "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+    "project_live_url": "",
+    "project_case_study_url": "",
+    "media": [
+    ]
+  },
+
+
+    {
+//       "type": "image",
+//       "url": "images/fun_app_screen_1.png",
+//       "alt_text": "Màn hình chào của ứng dụng Vui Nhộn",
+//       "caption": "Giao diện màn hình chào với nhân vật hoạt hình."
+//     },
+
+      
+// {
+//   "id": "du-an-thiet-ke-app-vui-nhon",
+//   "project_name": "Ứng Dụng Di Động Vui Nhộn",
+//   "project_thumbnail_url": "images/project_fun_app_thumb.jpg",
+//   "project_category": "Ứng dụng Di động",
+//   "project_date": "Quý 1, 2024",
+//   "client_name": "Công Ty Giải Trí Z",
+//   "project_summary": "Thiết kế giao diện người dùng (UI) và trải nghiệm người dùng (UX) cho một ứng dụng di động giải trí với phong cách trẻ trung, màu sắc rực rỡ.",
+//   "project_description_detailed": "Dự án này tập trung vào việc tạo ra một giao diện trực quan, dễ sử dụng và mang lại niềm vui cho người dùng. Chúng tôi đã phát triển một hệ thống icon tùy chỉnh, các nhân vật hoạt hình đáng yêu và các tương tác nhỏ thú vị để tăng tính tương tác. Thách thức chính là cân bằng giữa sự vui nhộn và tính năng cốt lõi của ứng dụng. Kết quả là một ứng dụng được người dùng yêu thích và đánh giá cao về mặt thẩm mỹ.",
+//   "tools_used": ["Figma", "Adobe Illustrator", "LottieFiles"],
+//   "project_live_url": "https://example.com/fun-app-showcase",
+//   "project_case_study_url": "",
+//   "media": [
+     {
+      "type": "image",
+      "url": "images/fun_app_screen_1.png",
+      "alt_text": "Màn hình chào của ứng dụng Vui Nhộn",
+       "caption": "Giao diện màn hình chào với nhân vật hoạt hình."
+     },
+//     {
+//       "type": "image",
+//       "url": "images/fun_app_screen_2.png",
+//       "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
+//       "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
+//     },
+//     {
+//       "type": "image",
+//       "url": "images/fun_app_screen_2.png",
+//       "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
+//       "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
+//     },
+//     {
+//       "type": "image",
+//       "url": "images/fun_app_screen_2.png",
+//       "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
+//       "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
+//     },
+//     {
+//       "type": "image",
+//       "url": "images/fun_app_screen_2.png",
+//       "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
+//       "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
+//     },
+//     {
+//       "type": "image",
+//       "url": "images/fun_app_screen_2.png",
+//       "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
+//       "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
+//     }
+
+//   ]
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+video_projects.json
+[
+  {
+    "id": "video1",
+    "project_name": "Dự Án Video 1",
+    "project_category": "Video Sáng Tạo",
+    "project_summary": "Mô tả ngắn về video quảng cáo sáng tạo sử dụng hiệu ứng động và âm nhạc bắt tai.",
+   "project_thumbnail_url": "https://img.youtube.com/vi/TH9x1GzYvcQ/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/embed/TH9x1GzYvcQ",
+    "project_description_detailed": "Đây là dự án video quảng cáo sáng tạo, sử dụng Adobe Premiere và After Effects để tạo hiệu ứng chuyển động mượt mà, kết hợp âm nhạc sôi động để thu hút người xem.",
+    "project_date": "01/2025",
+    "tools_used": ["Adobe Premiere", "After Effects"],
+    "project_live_url": "",
+    "project_case_study_url": "",
+    "caption": "Video quảng cáo sản phẩm sáng tạo"
+  }
+]

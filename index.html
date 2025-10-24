@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Thiết Kế</title>
+    <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWixZZ6A3Qe4bZ6eTU6e+h8o9AipfL92VNgE7i4A2W5I8B/0nW2Q2zTJ2uF9lcIXvZ9sx6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/video-projects.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      /* Ensure icons display correctly on mobile */
+      .logo img {
+        display: inline-block;
+        height: auto;
+        border: none; /* No border for logo */
+      }
+
+      .language-icons img {
+        display: inline-block;
+        height: auto;
+        border: 1px solid #000000; /* Black border for language icons */
+        border-radius: 50%;
+        transition: border-color 0.3s ease, transform 0.3s ease;
+      }
+
+      .language-icons img:hover {
+        border-color: #666666; /* Light gray hover effect */
+        transform: scale(1.1);
+      }
+
+      @media (max-width: 768px) {
+        .logo img {
+          width: 60px;
+          height: 45px;
+          margin-right: 20px;
+          border: none; /* No border for logo on mobile */
+        }
+
+        .language-icons img {
+          width: 28px;
+          height: 28px;
+          margin-right: 8px;
+          border: 1px solid #000000; /* Black border on mobile */
+        }
+
+        .nav-right .hamburger {
+          font-size: 24px;
+          cursor: pointer;
+          color: #000000; /* Black hamburger icon */
+          transition: color 0.3s ease;
+        }
+
+        .nav-right .hamburger:hover {
+          color: #666666; /* Light gray hover effect */
+        }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#hero">
+            <img 
+              src="images/icon_web/iocn.png" 
+              alt="icon" 
+              style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;" 
+              fetchpriority="high"
+            />
+          </a>
+        </div>
+        <ul>
+          <li><a href="#hero" data-lang="nav_home">Trang Chủ</a></li>
+          <li><a href="#about" data-lang="nav_about">Giới Thiệu</a></li>
+          <li><a href="#projects" data-lang="nav_projects">Dự Án</a></li>
+          <li id="nav-video-projects" class="hidden">
+            <a href="#video-projects" data-lang="nav_video_projects">Dự Án Video</a>
+          </li>
+          <li><a href="#contact" data-lang="nav_contact">Liên Hệ</a></li>
+        </ul>
+        <div class="nav-right">
+          <div class="language-icons">
+            <img 
+              src="images/icon_language/VN.png" 
+              alt="Tiếng Việt" 
+              id="lang-vi" 
+              style="cursor: pointer; margin-right: 10px;" 
+            />
+            <img 
+              src="images/icon_language/co_My.png" 
+              alt="English" 
+              id="lang-en" 
+              style="cursor: pointer;" 
+            />
+          </div>
+          <div class="hamburger" id="hamburger">☰</div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section"></section>
+      <section id="about" class="about-section">
+        <h2>Về Tôi</h2>
+      </section>
+      <section id="projects" class="projects-section">
+        <h2 data-lang="projects_title">Dự Án Của Tôi</h2>
+        <div class="project-grid"></div>
+      </section>
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2>Liên Hệ</h2>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2025 <span id="footer-name" data-lang="footer_name">Tên Nhà Thiết Kế</span>. Design with ❤️.
+      </p>
+    </footer>
+
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <div id="modal-project-content"></div>
+        <span class="close-button">×</span>
+      </div>
+    </div>
+    <div class="image-overlay" id="imageOverlay">
+      <img id="overlayImage" src="" alt="" />
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+/* Video Projects Section */
+.video-projects-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: var(--secondary-color); /* #1A1A1A */
+}
+
+.video-project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.video-project-card {
+    background-color: var(--secondary-color); /* #1A1A1A */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.15);
+}
+
+.video-project-card img.video-project-thumbnail {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Thêm wrapper cho thumbnail và nút Play */
+.video-thumbnail-wrapper {
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 105, 180, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: rgba(255, 105, 180, 0.7);
+}
+
+.play-button svg {
+    width: 40px;
+    height: 40px;
+}
+
+.video-project-card .project-info {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-project-card .project-info h3 {
+    font-family: 'MyCustomFont2', sans-serif;
+    font-size: 1.4em;
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 900;
+}
+
+.video-project-card .project-category {
+    display: inline-block;
+    background-color: var(--neutral-color);
+    color: var(--primary-color);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.video-project-card .project-summary {
+    font-size: 0.95em;
+    color: var(--text-color);
+    flex-grow: 1;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Responsive Design for Video Projects */
+@media (max-width: 768px) {
+    .video-project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Simple Animations for Playfulness */
+.video-project-card {
+    will-change: transform;
+}
+
+.video-project-card:hover {
+    animation: bounceHover 0.3s ease-out;
+}
+
+
+@keyframes bounceHover {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-5px) scale(1.05); }
+}
+
+.hidden {
+    display: none !important;
+}
